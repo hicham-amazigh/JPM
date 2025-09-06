@@ -3,7 +3,11 @@ package com.jpm.cli.commands;
 import com.jpm.core.api.BuildTool;
 import com.jpm.core.api.ProjectInspector;
 import com.jpm.core.spi.InspectorFactory;
-import picocli.CommandLine.*;
+
+import picocli.CommandLine;
+import picocli.CommandLine.Command;
+import picocli.CommandLine.Option;
+import picocli.CommandLine.Parameters;
 
 import java.nio.file.Path;
 import java.util.List;
@@ -14,7 +18,6 @@ import java.util.concurrent.Callable;
     description = "Module operations",
     subcommands = {
         Modules.Find.class
-        // Add future subcommands here: Modules.Add.class, Modules.Remove.class, ...
     }
 )
 public class Modules implements Runnable {
