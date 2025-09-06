@@ -1,0 +1,5 @@
+com/jpm/core/api/BuildTool.class
+com/jpm/core/spi/InspectorFactory$1.class
+com/jpm/core/api/ProjectInspector.class
+com/jpm/core/impl/MavenProjectInspector.class
+com/jpm/core/spi/InspectorFactory.class
